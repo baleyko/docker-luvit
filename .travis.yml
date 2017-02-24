@@ -1,0 +1,9 @@
+language: bash
+services:
+  - docker
+before_script:
+  - docker build -t "luvit" .
+script:
+  - docker run --rm -it luvit:latest luvit -e 'print("Hello World!")'
+after_script:
+  - docker images
