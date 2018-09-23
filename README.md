@@ -19,7 +19,7 @@ $ docker run --rm -it luvit -e 'print("Hello World!")'
 Either use the docker image from the hub(current Luvit version: 3.5.2):
 
 ```shell
-$ docker run --rm -it luvit:latest -e 'print("Hello World!")'
+$ docker run --rm -it baleyko/luvit:latest -e 'print("Hello World!")'
 ```
 
 ## License
